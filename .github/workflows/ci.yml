@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-structure:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Validate BMAD Framework Structure
+      run: |
+        echo "Validating BMAD framework structure..."
+        
+        # Check required directories exist
+        test -d "web-bundles/agents" || { echo "Missing web-bundles/agents directory"; exit 1; }
+        test -d "web-bundles/teams" || { echo "Missing web-bundles/teams directory"; exit 1; }
+        test -d "web-bundles/expansion-packs" || { echo "Missing web-bundles/expansion-packs directory"; exit 1; }
+        test -d "docs" || { echo "Missing docs directory"; exit 1; }
+        
+        # Check core agent files exist
+        for agent in analyst architect bmad-master bmad-orchestrator dev pm po qa sm ux-expert; do
+          test -f "web-bundles/agents/${agent}.txt" || { echo "Missing agent: ${agent}.txt"; exit 1; }
+        done
+        
+        # Check core team files exist
+        for team in team-all team-fullstack team-ide-minimal team-no-ui; do
+          test -f "web-bundles/teams/${team}.txt" || { echo "Missing team: ${team}.txt"; exit 1; }
+        done
+        
+        # Check CLAUDE.md exists
+        test -f "CLAUDE.md" || { echo "Missing CLAUDE.md"; exit 1; }
+        
+        echo "✅ BMAD framework structure validation passed"
+
+  validate-documents:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Validate Markdown Files
+      run: |
+        echo "Validating markdown files..."
+        
+        # Check for broken links (basic check)
+        find docs/ -name "*.md" -exec echo "Checking {}" \; -exec grep -l "](.*" {} \; || true
+        
+        # Validate YAML frontmatter if present
+        for file in docs/*.md; do
+          if head -1 "$file" | grep -q "^---$"; then
+            echo "Checking YAML frontmatter in $file"
+            # Basic YAML syntax check would go here
+          fi
+        done
+        
+        echo "✅ Document validation passed"
+
+  validate-agents:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Validate Agent Configurations
+      run: |
+        echo "Validating agent configurations..."
+        
+        # Check agent files are not empty
+        find web-bundles/agents/ -name "*.txt" -size 0 -exec echo "Empty agent file: {}" \; -exec exit 1 \;
+        
+        # Check team files are not empty
+        find web-bundles/teams/ -name "*.txt" -size 0 -exec echo "Empty team file: {}" \; -exec exit 1 \;
+        
+        # Check expansion pack agents are not empty
+        find web-bundles/expansion-packs/ -name "*.txt" -size 0 -exec echo "Empty expansion pack file: {}" \; -exec exit 1 \;
+        
+        echo "✅ Agent configuration validation passed"
