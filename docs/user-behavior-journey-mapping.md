@@ -24,218 +24,367 @@ This document maps detailed user behavior journeys across 4 key market segments,
 
 #### Behavior 1.1: Monthly Financial Review
 **CURRENT STATE:**
-```
-TRIGGER: End of month salary deposit notification
-INPUTS: Bank balance, scattered app data, mental cash estimates
-STEPS: 
-1. Check bank balance → Feel initial optimism/worry
-2. Try to remember cash spending → Mental calculation (usually inaccurate)
-3. Open 4-6 different apps → Get frustrated by fragmentation
-4. Attempt manual categorization → Spend 20+ minutes
-5. Abandon after incomplete picture → Feel defeated
-OUTPUTS: Incomplete understanding, tracking abandonment, financial anxiety
-```
+
+**Step 1: Initial Balance Check**
+- **Trigger:** End of month salary deposit notification
+- **Inputs:** Bank balance notification, salary amount, previous month's ending balance
+- **Outputs:** Initial optimism if higher than expected, worry if lower than expected
+
+**Step 2: Cash Spending Estimation**
+- **Trigger:** Attempting to account for untracked cash expenses
+- **Inputs:** Mental estimates of cash spending, receipts (if saved), memory of major cash purchases
+- **Outputs:** Frustration at incomplete picture, usually inaccurate cash spending estimates
+
+**Step 3: Multi-Platform Data Gathering**
+- **Trigger:** Need to check spending across multiple financial apps
+- **Inputs:** Banking apps, e-wallet apps (Momo, ZaloPay), investment apps, credit card apps
+- **Outputs:** Fragmented data, time consumption (20+ minutes), mounting frustration
+
+**Step 4: Manual Categorization Attempt**
+- **Trigger:** Trying to understand spending patterns and categorize expenses
+- **Inputs:** Transaction lists, manual categorization effort, time constraints, complexity
+- **Outputs:** Incomplete categorization, tracking abandonment, defeated feeling
 
 **FUTURE STATE:**
-```
-TRIGGER: Auto-generated monthly financial snapshot notification  
-INPUTS: Automated aggregation from all Vietnamese financial platforms
-PROCESSING: AI categorization, cash estimation, progress calculation
-STEPS:
-1. Receive comprehensive financial snapshot → Immediate clarity
-2. Review AI-categorized spending → Accurate Vietnamese context
-3. See wealth momentum visualization → Progress confidence
-4. Get personalized insights → Actionable next steps
-OUTPUTS: Complete financial picture, confidence in progress, clear next actions
-```
+
+**Step 1: Comprehensive Financial Snapshot**
+- **Trigger:** Auto-generated monthly financial snapshot notification
+- **Inputs:** Automated aggregation from Vietnamese banks and e-wallets, AI cash spending estimation
+- **Outputs:** Complete financial picture with immediate clarity
+
+**Step 2: AI-Powered Categorization Review**
+- **Trigger:** App presents AI-categorized spending with Vietnamese context
+- **Inputs:** All transaction data, Vietnamese spending pattern algorithms, cultural context AI
+- **Outputs:** Accurate spending categorization, cultural relevance, time savings
+
+**Step 3: Wealth Momentum Visualization**
+- **Trigger:** App displays wealth building progress and trends
+- **Inputs:** Month-over-month progress, goal advancement, wealth accumulation metrics
+- **Outputs:** Confidence in financial progress, motivation from visible momentum
+
+**Step 4: Personalized Insights & Actions**
+- **Trigger:** App generates actionable insights based on financial data
+- **Inputs:** Spending patterns, goal progress, optimization opportunities, Vietnamese market context
+- **Outputs:** Clear next steps, actionable recommendations, continued engagement
 
 #### Behavior 1.2: Unexpected Expense Response
 **CURRENT STATE:**
-```
-TRIGGER: Surprise expense (motorbike repair, medical, family emergency)
-INPUTS: Expense amount, current savings, panic response
-STEPS:
-1. Shock at expense → Emotional stress response
-2. Check savings balance → Worry about impact
-3. Pay expense without strategy → Disrupt all plans
-4. Feel progress is destroyed → Restart mentality
-5. Abandon financial tracking → "What's the point" attitude
-OUTPUTS: Plan destruction, emotional defeat, system abandonment
-```
+
+**Step 1: Expense Shock Response**
+- **Trigger:** Surprise expense occurs (motorbike repair, medical, family emergency)
+- **Inputs:** Unexpected expense amount, urgency level, emotional stress
+- **Outputs:** Shock, immediate emotional stress response, panic about financial impact
+
+**Step 2: Impact Assessment Worry**
+- **Trigger:** Checking current savings to understand expense impact
+- **Inputs:** Current savings balance, expense amount, existing financial plans
+- **Outputs:** Worry about goal disruption, anxiety about progress destruction
+
+**Step 3: Unstrategic Payment Response**
+- **Trigger:** Need to pay unexpected expense immediately
+- **Inputs:** Available funds, payment urgency, lack of strategic guidance
+- **Outputs:** Payment without strategy, disruption of all existing financial plans
+
+**Step 4: Progress Destruction Feeling**
+- **Trigger:** Realizing financial plans are now derailed
+- **Inputs:** Disrupted goals, lost progress, emotional attachment to plans
+- **Outputs:** "Restart mentality," feeling that all progress is destroyed, system abandonment
 
 **FUTURE STATE:**
-```
-TRIGGER: Unexpected expense entry into app
-INPUTS: Expense details, existing financial buffers, goal priorities
-PROCESSING: Impact analysis, recovery optimization, plan adjustment
-STEPS:
-1. Enter unexpected expense → App analyzes impact
-2. See recovery scenarios → Clear path forward
-3. Auto-adjust goals and timelines → Optimized rebalancing
-4. Receive emotional support → "This is normal, here's your plan"
-OUTPUTS: Maintained progress momentum, clear recovery path, emotional stability
-```
+
+**Step 1: Strategic Impact Analysis**
+- **Trigger:** Unexpected expense entry into app
+- **Inputs:** Expense details, current financial buffers, goal priorities, recovery algorithms
+- **Outputs:** Clear understanding of actual impact vs perceived devastation
+
+**Step 2: Recovery Scenario Planning**
+- **Trigger:** App generates multiple recovery path options
+- **Inputs:** Available resources, goal flexibility, timeline adjustments, optimization opportunities
+- **Outputs:** Multiple clear recovery scenarios, choice empowerment
+
+**Step 3: Automated Plan Adjustment**
+- **Trigger:** App implements optimized plan rebalancing
+- **Inputs:** Selected recovery strategy, goal priorities, timeline flexibility, resource reallocation
+- **Outputs:** Automatically adjusted goals and timelines, maintained progress momentum
+
+**Step 4: Emotional Support & Guidance**
+- **Trigger:** App provides emotional reassurance and motivation
+- **Inputs:** Recovery plan progress, normalized unexpected expense context, motivational frameworks
+- **Outputs:** Emotional stability, "this is normal" perspective, continued system engagement
 
 #### Behavior 1.3: Income Increase Adaptation
 **CURRENT STATE:**
-```
-TRIGGER: Salary increase or bonus notification
-INPUTS: New income amount, existing spending habits, lifestyle inflation temptation
-STEPS:
-1. Receive income increase → Feel temporarily rich
-2. Don't adjust savings strategy → Miss optimization opportunity  
-3. Lifestyle inflation kicks in → Spend the increase unconsciously
-4. Realize missed opportunity months later → Regret and frustration
-OUTPUTS: Wasted optimization opportunity, unconscious lifestyle inflation
-```
+
+**Step 1: Income Increase Euphoria**
+- **Trigger:** Salary increase or bonus notification
+- **Inputs:** New income amount, comparison to previous income, immediate emotional reaction
+- **Outputs:** Temporary feeling of wealth, excitement about increased financial capacity
+
+**Step 2: Strategy Stagnation**
+- **Trigger:** Continuing existing financial habits despite income increase
+- **Inputs:** Old savings strategy, unchanged spending patterns, lack of optimization awareness
+- **Outputs:** Missed optimization opportunity, unchanged savings rate percentage
+
+**Step 3: Unconscious Lifestyle Inflation**
+- **Trigger:** Gradual increase in spending to match new income level
+- **Inputs:** Higher disposable income, lifestyle upgrade temptations, social pressure
+- **Outputs:** Unconscious spending increases, absorbed income increase, no goal acceleration
+
+**Step 4: Missed Opportunity Realization**
+- **Trigger:** Months later recognizing wasted income increase potential
+- **Inputs:** Unchanged goal progress, inflated lifestyle costs, opportunity cost awareness
+- **Outputs:** Regret about missed optimization, frustration with unconscious choices
 
 **FUTURE STATE:**
-```
-TRIGGER: Income increase detection by app
-INPUTS: New income data, existing goal timeline, optimization preferences
-PROCESSING: Optimal allocation calculation, lifestyle vs goal balance
-STEPS:
-1. App detects income increase → Immediate optimization prompt
-2. See allocation recommendations → Goal acceleration options
-3. Choose balance of lifestyle vs savings → Conscious decision
-4. Auto-implement optimized plan → Systematic improvement
-OUTPUTS: Maximized goal acceleration, conscious lifestyle choices, systematic progress
-```
+
+**Step 1: Immediate Optimization Alert**
+- **Trigger:** App detects income increase automatically
+- **Inputs:** New income data, income detection algorithms, optimization opportunity analysis
+- **Outputs:** Immediate optimization prompt, awareness of improvement potential
+
+**Step 2: Strategic Allocation Options**
+- **Trigger:** App presents goal acceleration and lifestyle improvement options
+- **Inputs:** Current goals, timeline acceleration potential, lifestyle enhancement options, optimization algorithms
+- **Outputs:** Clear allocation recommendations, informed choice framework
+
+**Step 3: Conscious Balance Decision**
+- **Trigger:** User chooses optimal balance between goal acceleration and lifestyle improvement
+- **Inputs:** Personal preferences, goal urgency, lifestyle satisfaction, balanced optimization
+- **Outputs:** Conscious decision about income allocation, maintained awareness
+
+**Step 4: Automated Implementation**
+- **Trigger:** App implements chosen optimization strategy automatically
+- **Inputs:** Selected allocation strategy, automated systems, progress tracking, goal acceleration
+- **Outputs:** Systematic goal acceleration, conscious lifestyle choices, maximized income benefit
 
 ### JTBD 2: "Achieve dreams without sacrificing enjoyment"
 
 #### Behavior 2.1: New Goal Integration
 **CURRENT STATE:**
-```
-TRIGGER: Goal inspiration (friend's trip, property ad, career opportunity)
-INPUTS: Rough goal cost estimate, existing financial plans, enthusiasm
-STEPS:
-1. Get excited about new goal → Immediate desire
-2. Google rough cost estimates → Often underestimate true costs
-3. Try to fit into existing plans → Create conflict with other goals
-4. Feel overwhelmed by trade-offs → Analysis paralysis
-5. Either abandon new goal or randomly cut other goals → Suboptimal choices
-OUTPUTS: Goal conflict, suboptimal trade-offs, planning paralysis
-```
+
+**Step 1: Goal Inspiration & Excitement**
+- **Trigger:** Goal inspiration from external source (friend's trip, property ad, career opportunity)
+- **Inputs:** Goal inspiration source, initial enthusiasm, rough mental cost estimate
+- **Outputs:** Immediate desire for new goal, excitement about possibility
+
+**Step 2: Rough Cost Research**
+- **Trigger:** Attempting to understand goal cost requirements
+- **Inputs:** Google searches, basic cost estimates, superficial research
+- **Outputs:** Often underestimated true costs, incomplete understanding of requirements
+
+**Step 3: Existing Plan Integration Attempt**
+- **Trigger:** Trying to fit new goal into existing financial plans
+- **Inputs:** Current goals, existing savings allocations, new goal requirements
+- **Outputs:** Goal conflicts, realization that resources are insufficient
+
+**Step 4: Trade-off Overwhelm**
+- **Trigger:** Realizing need to make difficult trade-offs between goals
+- **Inputs:** Multiple competing goals, limited resources, complex trade-off calculations
+- **Outputs:** Analysis paralysis, either goal abandonment or suboptimal random cuts
 
 **FUTURE STATE:**
-```
-TRIGGER: New goal entry into app with Vietnamese market cost intelligence
-INPUTS: Goal specifications, Vietnamese market pricing, timeline preferences, existing goals
-PROCESSING: Multi-goal optimization, lifestyle impact analysis, Vietnamese cultural context
-STEPS:
-1. Enter new goal inspiration → App provides realistic Vietnamese costs
-2. See integrated optimization → How to fit with existing goals
-3. Review lifestyle impact options → Minimal sacrifice approach
-4. Choose optimized plan → Mathematical confidence in decisions
-OUTPUTS: Optimized multi-goal plan, realistic cost expectations, confident decisions
-```
+
+**Step 1: Intelligent Goal Assessment**
+- **Trigger:** New goal entry into app with market intelligence prompt
+- **Inputs:** Goal specifications, Vietnamese market pricing data, timeline preferences
+- **Outputs:** Realistic cost expectations, comprehensive goal understanding
+
+**Step 2: Multi-Goal Optimization Analysis**
+- **Trigger:** App analyzes integration with existing goals
+- **Inputs:** Existing goals, resource optimization algorithms, timeline flexibility, priority frameworks
+- **Outputs:** Clear integration options, optimized resource allocation scenarios
+
+**Step 3: Lifestyle Impact Assessment**
+- **Trigger:** App shows lifestyle impact of different goal integration approaches
+- **Inputs:** Current lifestyle patterns, sacrifice minimization algorithms, quality-of-life metrics
+- **Outputs:** Minimal sacrifice approach options, lifestyle preservation strategies
+
+**Step 4: Optimized Decision Implementation**
+- **Trigger:** User selects optimal goal integration strategy
+- **Inputs:** Selected optimization approach, automated implementation systems, progress tracking
+- **Outputs:** Mathematical confidence in decisions, systematic goal integration, clear execution plan
 
 #### Behavior 2.2: Lifestyle Optimization Decision
 **CURRENT STATE:**
-```
-TRIGGER: Realization that current spending doesn't support goal timeline
-INPUTS: Goal urgency, current spending patterns, lifestyle preferences
-STEPS:
-1. Realize goals are too slow → Need to cut spending
-2. Random expense cuts → Coffee, entertainment (obvious but small impact)
-3. Miss bigger optimization opportunities → Keep expensive inefficiencies
-4. Lose motivation when small cuts don't accelerate goals meaningfully
-OUTPUTS: Ineffective optimization, motivation loss, goal timeline frustration
-```
+
+**Step 1: Goal Timeline Reality Check**
+- **Trigger:** Realization that current spending doesn't support desired goal timeline
+- **Inputs:** Goal timeline targets, current savings rate, spending trajectory analysis
+- **Outputs:** Urgency to cut spending, pressure to accelerate progress
+
+**Step 2: Obvious Expense Targeting**
+- **Trigger:** Looking for expenses to cut to accelerate goals
+- **Inputs:** Visible discretionary expenses (coffee, entertainment), spending patterns, gut instincts
+- **Outputs:** Random cuts to obvious but small-impact expenses
+
+**Step 3: Missing High-Impact Opportunities**
+- **Trigger:** Continuing expensive inefficiencies while cutting small pleasures
+- **Inputs:** Large recurring expenses, subscription services, lifestyle inefficiencies
+- **Outputs:** Maintained expensive inefficiencies, focus on wrong optimization targets
+
+**Step 4: Motivation Loss from Ineffective Cuts**
+- **Trigger:** Small lifestyle cuts don't meaningfully accelerate goal progress
+- **Inputs:** Goal progress measurement, sacrifice vs benefit analysis, motivation tracking
+- **Outputs:** Motivation loss, goal timeline frustration, optimization abandonment
 
 **FUTURE STATE:**
-```
-TRIGGER: Goal timeline vs current trajectory mismatch alert
-INPUTS: Detailed spending analysis, lifestyle preferences, optimization algorithms
-PROCESSING: High-impact spending identification, lifestyle preservation optimization
-STEPS:
-1. App identifies high-impact optimization opportunities → Focus on what matters
-2. See lifestyle-preserving alternatives → Smart swaps vs cuts
-3. Choose surgical optimizations → Maximum goal impact, minimal lifestyle disruption
-4. Track optimization effectiveness → Data-driven motivation
-OUTPUTS: High-impact optimization, preserved lifestyle enjoyment, accelerated goal progress
-```
+
+**Step 1: High-Impact Opportunity Identification**
+- **Trigger:** App identifies highest-impact spending optimization opportunities
+- **Inputs:** Detailed spending analysis, goal impact algorithms, efficiency calculations
+- **Outputs:** Focus on high-impact optimization targets, strategic spending insights
+
+**Step 2: Lifestyle-Preserving Alternatives**
+- **Trigger:** App presents smart swaps and alternatives vs simple cuts
+- **Inputs:** Lifestyle preferences, Vietnamese market alternatives, quality-preservation options
+- **Outputs:** Smart swaps that maintain lifestyle quality while reducing costs
+
+**Step 3: Surgical Optimization Implementation**
+- **Trigger:** User selects precise optimizations for maximum impact
+- **Inputs:** Selected optimization strategies, automated implementation, progress tracking
+- **Outputs:** Maximum goal acceleration with minimal lifestyle disruption
+
+**Step 4: Data-Driven Motivation Tracking**
+- **Trigger:** App tracks and displays optimization effectiveness
+- **Inputs:** Goal acceleration metrics, lifestyle satisfaction measures, progress visualization
+- **Outputs:** Data-driven motivation, visible goal acceleration, sustained optimization engagement
 
 #### Behavior 2.3: Goal Priority Rebalancing
 **CURRENT STATE:**
-```
-TRIGGER: Life circumstances change goal urgency/importance
-INPUTS: Changed priorities, existing goal allocations, emotional attachment to goals
-STEPS:
-1. Realize priorities have shifted → House more urgent than Japan trip
-2. Feel guilty about changing goals → Emotional attachment to original plans
-3. Manual reallocation attempts → Complex calculations, unsure if optimal
-4. Procrastinate on changes → Continue suboptimal allocation
-OUTPUTS: Suboptimal goal allocation, guilt about changing plans, missed opportunities
-```
+
+**Step 1: Priority Shift Realization**
+- **Trigger:** Life circumstances changing goal urgency/importance
+- **Inputs:** Changed life circumstances, goal urgency assessment, priority reevaluation
+- **Outputs:** Recognition that goal priorities have shifted (e.g., house more urgent than travel)
+
+**Step 2: Emotional Attachment Guilt**
+- **Trigger:** Feeling conflicted about changing previously set goals
+- **Inputs:** Emotional attachment to original plans, guilt about goal changes, commitment psychology
+- **Outputs:** Guilt about abandoning original plans, resistance to necessary changes
+
+**Step 3: Manual Reallocation Struggle**
+- **Trigger:** Attempting to manually recalculate optimal resource allocation
+- **Inputs:** Multiple goal requirements, complex calculations, uncertainty about optimization
+- **Outputs:** Overwhelm at calculation complexity, uncertainty about optimal choices
+
+**Step 4: Change Procrastination**
+- **Trigger:** Avoiding difficult reallocation decisions due to complexity
+- **Inputs:** Decision complexity, emotional resistance, procrastination tendencies
+- **Outputs:** Continued suboptimal allocation, missed opportunities, delayed optimization
 
 **FUTURE STATE:**
-```
-TRIGGER: Priority shift indication in app
-INPUTS: Updated goal priorities, timeline changes, new life circumstances
-PROCESSING: Dynamic rebalancing algorithms, emotional transition support
-STEPS:
-1. Update goal priorities in app → Clear priority ranking
-2. See optimal reallocation → Mathematical confidence in changes
-3. Understand transition rationale → Emotional support for changes
-4. Implement rebalanced plan → Systematic optimization
-OUTPUTS: Optimal goal allocation, emotional peace with changes, systematic progress
-```
+
+**Step 1: Priority Update Integration**
+- **Trigger:** App prompts priority shift indication and assessment
+- **Inputs:** Updated life circumstances, goal priority rankings, timeline changes
+- **Outputs:** Clear priority ranking system, structured priority assessment
+
+**Step 2: Optimal Reallocation Calculation**
+- **Trigger:** App calculates optimal resource reallocation based on new priorities
+- **Inputs:** Updated priorities, dynamic rebalancing algorithms, resource optimization
+- **Outputs:** Mathematical confidence in optimal reallocation strategy
+
+**Step 3: Emotional Transition Support**
+- **Trigger:** App provides rationale and emotional support for goal changes
+- **Inputs:** Change psychology frameworks, transition support systems, goal evolution normalization
+- **Outputs:** Emotional peace with necessary changes, reduced guilt about goal evolution
+
+**Step 4: Systematic Implementation**
+- **Trigger:** App implements rebalanced plan automatically
+- **Inputs:** Selected reallocation strategy, automated systems, progress tracking
+- **Outputs:** Systematic optimization, optimal goal allocation, continued progress momentum
 
 ### JTBD 4: "Money plan adapts as life changes"
 
 #### Behavior 4.1: Life Transition Financial Planning
 **CURRENT STATE:**
-```
-TRIGGER: Major life change (job change, relationship, family change)
-INPUTS: New life circumstances, existing financial plans, uncertainty about impact
-STEPS:
-1. Life change occurs → Financial plan now feels wrong
-2. Try to manually recalculate → Overwhelmed by complexity
-3. Procrastinate on financial adjustments → Continue with outdated plan
-4. Make ad hoc adjustments → Suboptimal resource allocation
-OUTPUTS: Outdated financial strategy, missed optimization opportunities, adaptation stress
-```
+
+**Step 1: Life Change Disruption**
+- **Trigger:** Major life change occurs (job change, relationship, family change)
+- **Inputs:** New life circumstances, existing financial plans, uncertainty about implications
+- **Outputs:** Feeling that current financial plan no longer fits, disruption anxiety
+
+**Step 2: Manual Recalculation Overwhelm**
+- **Trigger:** Attempting to manually adjust financial plan for new circumstances
+- **Inputs:** Changed income/expenses, new goals/constraints, complex calculations
+- **Outputs:** Overwhelm at recalculation complexity, analysis paralysis
+
+**Step 3: Adjustment Procrastination**
+- **Trigger:** Avoiding complex financial plan adjustments due to overwhelm
+- **Inputs:** Adjustment complexity, time constraints, procrastination tendencies
+- **Outputs:** Continued use of outdated plan, growing gap between plan and reality
+
+**Step 4: Ad Hoc Suboptimal Adjustments**
+- **Trigger:** Making financial adjustments without systematic planning
+- **Inputs:** Immediate pressures, gut instincts, simplified thinking
+- **Outputs:** Suboptimal resource allocation, missed optimization opportunities, adaptation stress
 
 **FUTURE STATE:**
-```
-TRIGGER: Life transition detection and planning prompt
-INPUTS: New life circumstances, updated goals/constraints, transition templates
-PROCESSING: Life transition optimization, Vietnamese cultural adaptation, scenario planning
-STEPS:
-1. Indicate life transition in app → Transition-specific planning activated
-2. Review Vietnamese cultural life stage templates → Culturally-appropriate adjustments
-3. See optimized transition plan → Clear path through change
-4. Implement adaptive strategy → Systematic life transition management
-OUTPUTS: Optimized transition planning, cultural appropriateness, reduced transition stress
-```
+
+**Step 1: Transition Detection & Activation**
+- **Trigger:** App detects life transition and activates specialized planning
+- **Inputs:** Life transition indicators, transition-specific templates, planning activation
+- **Outputs:** Transition-specific planning mode activated, structured adaptation process
+
+**Step 2: Cultural Template Integration**
+- **Trigger:** App applies Vietnamese cultural life stage templates
+- **Inputs:** Vietnamese cultural transition norms, life stage templates, cultural adaptation algorithms
+- **Outputs:** Culturally-appropriate adjustments, social norm alignment
+
+**Step 3: Optimized Transition Strategy**
+- **Trigger:** App generates optimized plan for life transition
+- **Inputs:** New circumstances, optimization algorithms, scenario planning, goal adjustments
+- **Outputs:** Clear path through transition, optimized resource allocation
+
+**Step 4: Adaptive Implementation**
+- **Trigger:** App implements systematic life transition management
+- **Inputs:** Selected transition strategy, automated systems, progress monitoring
+- **Outputs:** Systematic adaptation, reduced transition stress, optimized life change management
 
 #### Behavior 4.2: Market Change Response
 **CURRENT STATE:**
-```
-TRIGGER: Goal costs increase or economic conditions shift
-INPUTS: Changed market conditions, static financial plans, inflation/market news
-STEPS:
-1. Notice goal costs have increased → Property prices up 15%
-2. Feel discouraged about goal achievability → Timeline feels impossible
-3. Don't know how to adjust strategy → Static plan doesn't adapt
-4. Either abandon goals or ignore changes → Suboptimal responses
-OUTPUTS: Discouragement, outdated strategy, goal abandonment or ignored reality
-```
+
+**Step 1: Market Change Recognition**
+- **Trigger:** Goal costs increase or economic conditions shift
+- **Inputs:** Market news, inflation data, goal cost increases (e.g., property prices up 15%)
+- **Outputs:** Awareness of changed market conditions affecting goals
+
+**Step 2: Goal Achievability Discouragement**
+- **Trigger:** Realizing market changes make goals more difficult
+- **Inputs:** Updated goal costs, unchanged savings capacity, timeline pressure
+- **Outputs:** Discouragement about goal achievability, feeling that timeline is impossible
+
+**Step 3: Strategy Adaptation Confusion**
+- **Trigger:** Needing to adjust strategy but not knowing how
+- **Inputs:** Static financial plans, changed market reality, lack of adaptation framework
+- **Outputs:** Confusion about necessary adjustments, continued use of outdated strategy
+
+**Step 4: Suboptimal Response Choice**
+- **Trigger:** Choosing between goal abandonment or ignoring market changes
+- **Inputs:** Limited response options, emotional pressure, lack of guidance
+- **Outputs:** Either goal abandonment or ignored reality, both suboptimal responses
 
 **FUTURE STATE:**
-```
-TRIGGER: Market change detection with plan impact analysis
-INPUTS: Vietnamese market intelligence, updated goal costs, plan sensitivity analysis
-PROCESSING: Real-time plan adaptation, scenario optimization, emotional resilience support
-STEPS:
-1. App detects market changes affecting goals → Proactive notification
-2. See adjusted plan options → Multiple adaptation strategies
-3. Choose resilient response → Optimized for new market reality
-4. Implement market-adaptive strategy → Maintained goal progress despite changes
-OUTPUTS: Market-resilient planning, maintained goal momentum, adaptive financial strategy
-```
+
+**Step 1: Market Change Detection**
+- **Trigger:** App detects market changes affecting user goals
+- **Inputs:** Vietnamese market intelligence, real-time cost tracking, goal impact analysis
+- **Outputs:** Proactive notification of market changes, impact assessment
+
+**Step 2: Adaptation Strategy Options**
+- **Trigger:** App presents multiple plan adaptation strategies
+- **Inputs:** Updated market conditions, plan sensitivity analysis, scenario optimization
+- **Outputs:** Multiple adaptation strategies, informed choice framework
+
+**Step 3: Resilient Response Selection**
+- **Trigger:** User chooses optimal response to market changes
+- **Inputs:** Adaptation options, risk tolerance, goal priority, optimization preferences
+- **Outputs:** Resilient response optimized for new market reality
+
+**Step 4: Market-Adaptive Implementation**
+- **Trigger:** App implements market-adaptive strategy automatically
+- **Inputs:** Selected adaptation strategy, real-time market monitoring, progress tracking
+- **Outputs:** Maintained goal progress despite market changes, adaptive financial strategy
 
 ---
 
@@ -245,109 +394,185 @@ OUTPUTS: Market-resilient planning, maintained goal momentum, adaptive financial
 
 #### Behavior 1.1: Monthly Income Variability Management
 **CURRENT STATE:**
-```
-TRIGGER: Client payment arrives (or doesn't arrive when expected)
-INPUTS: Payment amount, current account balance, emotional state about income
-STEPS:
-1. Check payment → Emotional high/low based on amount vs expectation
-2. Calculate projected monthly total → Usually inaccurate prediction
-3. Make spending decisions based on this month → Feast or famine mentality
-4. Feel anxiety about next month → Constant uncertainty
-OUTPUTS: Emotional rollercoaster, poor spending decisions, chronic anxiety
-```
+
+**Step 1: Payment Emotional Response**
+- **Trigger:** Client payment arrives (or doesn't arrive when expected)
+- **Inputs:** Payment amount, expected payment amount, current emotional state
+- **Outputs:** Emotional high/low based on amount vs expectation, income anxiety
+
+**Step 2: Monthly Income Projection**
+- **Trigger:** Attempting to calculate total monthly income based on current payments
+- **Inputs:** Received payments, pending payments, historical patterns, client reliability
+- **Outputs:** Usually inaccurate monthly income prediction, planning uncertainty
+
+**Step 3: Reactive Spending Decisions**
+- **Trigger:** Making spending decisions based on current month's income level
+- **Inputs:** Current month payments, immediate spending needs, emotional state
+- **Outputs:** Feast or famine spending mentality, poor financial decisions
+
+**Step 4: Next Month Anxiety**
+- **Trigger:** Worrying about next month's income uncertainty
+- **Inputs:** Uncertain future payments, client project status, market conditions
+- **Outputs:** Chronic anxiety about financial stability, constant uncertainty
 
 **FUTURE STATE:**
-```
-TRIGGER: Payment received, app updates income smoothing model
-INPUTS: Payment data, historical patterns, expense priorities, emotional preferences
-PROCESSING: Income smoothing algorithms, spending guidance, emotional stability metrics
-STEPS:
-1. Payment received → App updates smoothed monthly income equivalent
-2. See stability dashboard → Confidence meter based on buffer health
-3. Receive spending guidance → Adjusted for current income confidence
-4. Plan next month with predictive cash flow → Reduced uncertainty
-OUTPUTS: Emotional stability, confident spending decisions, predictable planning
-```
+
+**Step 1: Income Smoothing Update**
+- **Trigger:** Payment received, app updates income smoothing model
+- **Inputs:** Payment data, historical income patterns, smoothing algorithms
+- **Outputs:** Updated smoothed monthly income equivalent, reduced payment volatility
+
+**Step 2: Stability Dashboard Review**
+- **Trigger:** App displays financial stability metrics and confidence indicators
+- **Inputs:** Buffer health, income stability metrics, confidence calculations
+- **Outputs:** Clear stability dashboard, confidence meter based on financial health
+
+**Step 3: Income-Adjusted Spending Guidance**
+- **Trigger:** App provides spending guidance adjusted for current income confidence
+- **Inputs:** Smoothed income, expense priorities, confidence levels, spending optimization
+- **Outputs:** Confident spending decisions based on income stability analysis
+
+**Step 4: Predictive Planning**
+- **Trigger:** App provides next month planning with predictive cash flow
+- **Inputs:** Income predictions, expense planning, buffer status, seasonal patterns
+- **Outputs:** Reduced uncertainty, predictable financial planning, emotional stability
 
 #### Behavior 1.2: Good Month Windfall Management
 **CURRENT STATE:**
-```
-TRIGGER: Exceptional high-income month (multiple clients pay, bonus project)
-INPUTS: High income amount, built-up desires from lean months, celebration impulse
-STEPS:
-1. See high income → Feel temporarily wealthy
-2. Indulge in delayed spending → Celebration purchases, lifestyle inflation
-3. Don't save proportionally → Miss buffer-building opportunity
-4. Regret when next lean month arrives → "Why didn't I save more?"
-OUTPUTS: Missed savings opportunities, boom-bust cycles, regret patterns
-```
+
+**Step 1: Windfall Euphoria**
+- **Trigger:** Exceptional high-income month (multiple clients pay, bonus project)
+- **Inputs:** High income amount, comparison to typical months, emotional excitement
+- **Outputs:** Temporary feeling of wealth, excitement about increased spending capacity
+
+**Step 2: Celebration Spending Spree**
+- **Trigger:** Feeling entitled to spend after lean months
+- **Inputs:** Built-up desires from lean months, celebration impulse, lifestyle upgrade temptations
+- **Outputs:** Delayed gratification spending, celebration purchases, lifestyle inflation
+
+**Step 3: Proportional Saving Failure**
+- **Trigger:** Not adjusting savings rate proportionally to increased income
+- **Inputs:** Windfall income, existing savings habits, buffer-building opportunities
+- **Outputs:** Missed buffer-building opportunity, unchanged savings rate despite windfall
+
+**Step 4: Lean Month Regret**
+- **Trigger:** Next lean month arriving with insufficient buffer
+- **Inputs:** Reduced income, inflated expenses, regret about missed opportunities
+- **Outputs:** "Why didn't I save more?" regret, boom-bust cycle continuation
 
 **FUTURE STATE:**
-```
-TRIGGER: High-income month detection with optimization prompt
-INPUTS: High income data, buffer status, deferred goals, lifestyle balance
-PROCESSING: Windfall optimization, future lean month preparation, balanced allocation
-STEPS:
-1. App detects windfall month → Optimization opportunity alert
-2. See allocation recommendations → Buffer, goals, lifestyle balance
-3. Choose conscious allocation → Some celebration, strategic saving
-4. Automate optimal distribution → Systematic windfall management
-OUTPUTS: Optimized windfall use, future stability, conscious celebrations
-```
+
+**Step 1: Windfall Detection & Alert**
+- **Trigger:** App detects high-income month and prompts optimization
+- **Inputs:** High income data, windfall detection algorithms, optimization opportunity analysis
+- **Outputs:** Optimization opportunity alert, awareness of strategic allocation potential
+
+**Step 2: Allocation Recommendation**
+- **Trigger:** App provides balanced allocation recommendations
+- **Inputs:** Buffer status, deferred goals, lifestyle balance preferences, optimization algorithms
+- **Outputs:** Clear allocation recommendations balancing buffer, goals, and lifestyle
+
+**Step 3: Conscious Allocation Decision**
+- **Trigger:** User makes conscious choice about windfall allocation
+- **Inputs:** Allocation options, celebration desires, strategic priorities, balance preferences
+- **Outputs:** Conscious allocation decision combining celebration with strategic saving
+
+**Step 4: Automated Optimal Distribution**
+- **Trigger:** App implements chosen windfall allocation strategy
+- **Inputs:** Selected allocation strategy, automated distribution systems, tracking mechanisms
+- **Outputs:** Systematic windfall management, optimized future stability, conscious celebrations
 
 #### Behavior 1.3: Lean Month Stress Response
 **CURRENT STATE:**
-```
-TRIGGER: Low-income month (client delays, project cancellations, seasonal downturn)
-INPUTS: Low income, existing expenses, panic about sustainability
-STEPS:
-1. Realize low income → Panic about covering expenses
-2. Stress about business sustainability → "Am I failing?"
-3. Make desperate business decisions → Accept bad clients, cut prices
-4. Emotional spiral affects work quality → Perpetuate income problems
-OUTPUTS: Business quality degradation, desperate decisions, emotional spiral
-```
+
+**Step 1: Low Income Panic**
+- **Trigger:** Low-income month (client delays, project cancellations, seasonal downturn)
+- **Inputs:** Low income amounts, existing expense obligations, financial pressure
+- **Outputs:** Panic about covering basic expenses, immediate survival anxiety
+
+**Step 2: Business Sustainability Doubt**
+- **Trigger:** Questioning business viability due to income drop
+- **Inputs:** Income decline, market conditions, self-doubt triggers
+- **Outputs:** "Am I failing?" thoughts, stress about business sustainability
+
+**Step 3: Desperate Business Decisions**
+- **Trigger:** Making poor business choices to generate immediate income
+- **Inputs:** Financial pressure, desperation for income, compromised judgment
+- **Outputs:** Accepting bad clients, cutting prices, compromising business standards
+
+**Step 4: Quality Degradation Spiral**
+- **Trigger:** Emotional stress affecting work performance
+- **Inputs:** Stress levels, compromised clients, reduced quality standards
+- **Outputs:** Work quality degradation, perpetuation of income problems, negative spiral
 
 **FUTURE STATE:**
-```
-TRIGGER: Low-income month detection with support activation
-INPUTS: Low income data, prepared lean month plan, emotional resilience tools
-PROCESSING: Lean month protocols, business quality maintenance, emotional support
-STEPS:
-1. App activates lean month protocol → "This is normal, here's your plan"
-2. Use pre-planned expense prioritization → Clear spending guidance
-3. Maintain business quality standards → Avoid desperate decisions
-4. See historical recovery patterns → Emotional reassurance with data
-OUTPUTS: Maintained business quality, emotional resilience, systematic lean month management
-```
+
+**Step 1: Lean Month Protocol Activation**
+- **Trigger:** App detects low-income month and activates support systems
+- **Inputs:** Low income data, prepared lean month protocols, normalization messaging
+- **Outputs:** "This is normal, here's your plan" reassurance, systematic response activation
+
+**Step 2: Pre-Planned Expense Management**
+- **Trigger:** App implements pre-planned expense prioritization
+- **Inputs:** Lean month expense plan, spending priorities, essential vs optional expenses
+- **Outputs:** Clear spending guidance, systematic expense management, reduced financial stress
+
+**Step 3: Business Quality Maintenance**
+- **Trigger:** App helps maintain business standards during lean months
+- **Inputs:** Business quality frameworks, client standards, long-term thinking prompts
+- **Outputs:** Avoided desperate decisions, maintained business quality, protected reputation
+
+**Step 4: Historical Recovery Reassurance**
+- **Trigger:** App displays historical recovery patterns and data
+- **Inputs:** Past recovery data, income cycle patterns, resilience evidence
+- **Outputs:** Emotional reassurance with data, maintained business confidence, systematic lean month management
 
 ### JTBD 2: "Business grows while personal finances stay stable"
 
 #### Behavior 2.1: Business Investment Decision
 **CURRENT STATE:**
-```
-TRIGGER: Business investment opportunity (equipment, course, marketing, tools)
-INPUTS: Investment cost, current personal account balance, ROI hopes
-STEPS:
-1. See investment opportunity → Excitement about business potential
-2. Check personal account → Make decision based on current cash
-3. Invest without ROI analysis → Hope it pays off
-4. Personal budget crashes → Regret timing decision
-OUTPUTS: Personal financial instability, poor investment timing, business/personal boundary blur
-```
+
+**Step 1: Investment Opportunity Excitement**
+- **Trigger:** Business investment opportunity (equipment, course, marketing, tools)
+- **Inputs:** Investment opportunity details, potential business benefits, excitement about growth
+- **Outputs:** Excitement about business potential, desire to invest immediately
+
+**Step 2: Personal Cash Check**
+- **Trigger:** Checking personal account balance to fund business investment
+- **Inputs:** Current personal account balance, investment cost, immediate availability
+- **Outputs:** Investment decision based on current cash availability rather than strategy
+
+**Step 3: Hope-Based Investment**
+- **Trigger:** Making investment without proper ROI analysis
+- **Inputs:** Investment opportunity, optimistic projections, hope for returns
+- **Outputs:** Investment without ROI analysis, hoping it pays off, unclear expectations
+
+**Step 4: Personal Budget Impact**
+- **Trigger:** Personal budget suffering from business investment
+- **Inputs:** Depleted personal funds, ongoing personal expenses, cash flow problems
+- **Outputs:** Personal financial instability, regret about timing, business/personal boundary blur
 
 **FUTURE STATE:**
-```
-TRIGGER: Business investment opportunity entry with ROI analysis
-INPUTS: Investment details, business financial data, personal stability requirements, ROI projections
-PROCESSING: Investment timing optimization, ROI analysis, personal impact modeling
-STEPS:
-1. Enter investment opportunity → App analyzes ROI potential
-2. See timing recommendations → Personal stability vs business growth balance
-3. Review business/personal boundary → Clear separation maintained
-4. Make data-driven decision → Confident investment timing
-OUTPUTS: Optimal investment timing, maintained personal stability, clear business/personal boundaries
-```
+
+**Step 1: ROI Analysis Integration**
+- **Trigger:** Business investment opportunity entry with comprehensive analysis
+- **Inputs:** Investment details, business financial data, ROI projection algorithms
+- **Outputs:** Clear ROI potential analysis, informed investment assessment
+
+**Step 2: Timing Optimization**
+- **Trigger:** App provides investment timing recommendations
+- **Inputs:** Personal stability requirements, business growth needs, timing optimization algorithms
+- **Outputs:** Optimal timing recommendations balancing personal stability and business growth
+
+**Step 3: Boundary Maintenance**
+- **Trigger:** App ensures clear business/personal financial boundaries
+- **Inputs:** Business financial status, personal stability requirements, boundary frameworks
+- **Outputs:** Clear business/personal separation maintained, protected personal finances
+
+**Step 4: Data-Driven Decision**
+- **Trigger:** User makes informed investment decision based on comprehensive analysis
+- **Inputs:** ROI analysis, timing recommendations, boundary considerations, risk assessment
+- **Outputs:** Confident investment timing, maintained personal stability, optimal business growth decisions
 
 #### Behavior 2.2: Client Profitability Assessment
 **CURRENT STATE:**
@@ -653,167 +878,373 @@ OUTPUTS: Preserved individual identity, optimized joint partnership, resolved go
 
 ## SEGMENT 4: MULTI-GENERATIONAL PROVIDERS - BEHAVIOR JOURNEYS
 
-### JTBD 1: "Be reliable provider without destroying own future"
+### JTBD 1: "Build healthcare emergency fund that protects entire family from medical disasters"
 
-#### Behavior 1.1: Family Emergency Response
+#### Behavior 1.1: Medical Emergency Fund Planning
 **CURRENT STATE:**
-```
-TRIGGER: Urgent family call (medical emergency, financial crisis, unexpected need)
-INPUTS: Crisis details, immediate family need, personal savings status, emotional obligation
-STEPS:
-1. Receive family emergency call → Immediate stress and obligation feeling
-2. Check personal savings → Realize impact on personal goals
-3. Transfer money without strategic planning → Automatic response
-4. Feel good about helping family → Immediate emotional satisfaction
-5. Later realize personal financial plan destroyed → Regret and stress about own future
-OUTPUTS: Personal goal disruption, emotional satisfaction followed by future anxiety, unsustainable pattern
-```
+
+**Step 1: Health Risk Awareness**
+- **Trigger:** Family member health concern or aging parent discussion
+- **Inputs:** Family health history, aging parent needs, children's health patterns
+- **Outputs:** Anxiety about family medical vulnerability
+
+**Step 2: Cost Estimation Attempt**
+- **Trigger:** Trying to calculate potential medical emergency costs
+- **Inputs:** Online medical cost research, insurance policy details, worst-case scenarios
+- **Outputs:** Overwhelm at 50-200M VND potential expenses, fear of bankruptcy
+
+**Step 3: Savings Gap Realization**
+- **Trigger:** Comparing current savings to estimated medical costs
+- **Inputs:** Current bank balance, existing emergency fund, medical cost estimates
+- **Outputs:** Panic about massive funding gap, inadequacy feelings
+
+**Step 4: Planning Paralysis**
+- **Trigger:** Attempting to create systematic emergency fund plan
+- **Inputs:** Complex medical scenarios, uncertain timelines, competing financial priorities
+- **Outputs:** Procrastination, continued inadequate preparation, chronic anxiety
 
 **FUTURE STATE:**
-```
-TRIGGER: Family emergency with systematic response planning
-INPUTS: Emergency details, pre-planned response protocols, sustainable support modeling, family impact analysis
-PROCESSING: Emergency response optimization, personal future protection, family support sustainability
-STEPS:
-1. Receive emergency → App activates emergency response protocol
-2. See pre-planned response options → Different support levels with personal impact analysis
-3. Choose sustainable response level → Help family without destroying personal future
-4. Execute systematic emergency support → Both family helped and personal goals protected
-OUTPUTS: Sustainable family support, protected personal future, systematic emergency management
-```
 
-#### Behavior 1.2: Regular Family Support Planning
+**Step 1: Systematic Health Risk Assessment**
+- **Trigger:** App prompts comprehensive family health risk evaluation
+- **Inputs:** Family health profiles, Vietnamese medical cost database, insurance analysis
+- **Outputs:** Clear understanding of family medical risk profile and potential costs
+
+**Step 2: Emergency Fund Target Calculation**
+- **Trigger:** App generates personalized emergency fund recommendations
+- **Inputs:** Family risk assessment, Vietnamese healthcare cost modeling, insurance gaps
+- **Outputs:** Specific emergency fund target amounts and timeline
+
+**Step 3: Automated Funding Strategy**
+- **Trigger:** App creates systematic emergency fund building plan
+- **Inputs:** Monthly income, expense analysis, goal timeline, optimization algorithms
+- **Outputs:** Automated monthly contributions, clear progress tracking
+
+**Step 4: Progress Monitoring & Adjustment**
+- **Trigger:** Regular emergency fund adequacy reviews
+- **Inputs:** Fund growth, family changes, medical cost inflation, insurance updates
+- **Outputs:** Adjusted targets, maintained confidence, systematic medical security
+
+#### Behavior 1.2: Medical Emergency Response
 **CURRENT STATE:**
-```
-TRIGGER: Monthly family support obligations (parents, siblings, extended family)
-INPUTS: Family expectations, personal income, competing personal goals, cultural obligations
-STEPS:
-1. Family expects regular support → Cultural pressure to provide
-2. Send money based on income/guilt → Not strategically planned
-3. Support levels fluctuate with personal situation → Inconsistent for family
-4. Don't track long-term sustainability → Supporting 4-7 people unsustainably
-OUTPUTS: Unsustainable support patterns, family inconsistency, personal future compromise
-```
+
+**Step 1: Emergency Crisis Response**
+- **Trigger:** Family member hospitalized or requires urgent medical treatment
+- **Inputs:** Medical diagnosis, treatment costs, hospital requirements, emotional panic
+- **Outputs:** Immediate stress, fear about family member and financial impact
+
+**Step 2: Insurance Coverage Discovery**
+- **Trigger:** Attempting to use health insurance for treatment
+- **Inputs:** Insurance policy details, hospital billing, treatment requirements
+- **Outputs:** Shock at insurance gaps, realization of out-of-pocket costs
+
+**Step 3: Desperate Financial Response**
+- **Trigger:** Need to pay medical bills immediately
+- **Inputs:** Current savings, retirement funds, education savings, asset values
+- **Outputs:** Depletion of all savings, borrowing against future, asset liquidation
+
+**Step 4: Financial Plan Destruction**
+- **Trigger:** Aftermath of medical emergency spending
+- **Inputs:** Remaining financial resources, destroyed long-term goals, debt obligations
+- **Outputs:** Financial devastation, abandoned dreams, long-term recovery needed
 
 **FUTURE STATE:**
-```
-TRIGGER: Systematic family support optimization planning
-INPUTS: Family support history, personal future requirements, sustainable support modeling, Vietnamese cultural expectations
-PROCESSING: Multi-generational optimization, sustainable support calculation, cultural appropriateness
-STEPS:
-1. Map all family obligations → Clear picture of total support load
-2. Calculate sustainable support levels → Mathematical approach to obligation capacity
-3. Implement consistent support system → Reliable for family, sustainable for provider
-4. Communicate sustainable plan to family → Cultural appropriate boundary setting
-OUTPUTS: Sustainable family support system, family reliability, protected personal future
-```
 
-#### Behavior 1.3: Support Sustainability Anxiety
+**Step 1: Emergency Protocol Activation**
+- **Trigger:** Medical emergency occurs with family member
+- **Inputs:** Pre-built emergency response protocols, medical fund status, insurance coverage
+- **Outputs:** Calm, systematic response activation
+
+**Step 2: Targeted Emergency Fund Deployment**
+- **Trigger:** App calculates optimal emergency fund usage
+- **Inputs:** Medical costs, emergency fund balance, insurance coverage, treatment options
+- **Outputs:** Strategic fund deployment, protected core savings
+
+**Step 3: Insurance Optimization**
+- **Trigger:** App guides insurance claim optimization
+- **Inputs:** Insurance policy details, treatment requirements, claim procedures
+- **Outputs:** Maximized insurance coverage, minimized out-of-pocket costs
+
+**Step 4: Financial Recovery & Protection**
+- **Trigger:** Post-emergency financial plan adjustment
+- **Inputs:** Remaining emergency fund, insurance payments, ongoing treatment costs
+- **Outputs:** Maintained long-term goals, systematic emergency fund rebuilding
+
+### JTBD 2: "Systematically prepare for children's education while honoring parents' retirement needs"
+
+#### Behavior 2.1: Multi-Generational Financial Planning
 **CURRENT STATE:**
-```
-TRIGGER: Realization that current support levels may not be long-term sustainable
-INPUTS: Supporting 4-7 people, aging parents with increasing needs, own retirement concerns
-STEPS:
-1. Calculate total family obligations → Overwhelming financial responsibility
-2. Project future needs growth → Parents aging, potential medical costs
-3. Compare to personal future needs → Retirement inadequacy fears
-4. Feel trapped by obligation → Can't reduce support without guilt
-OUTPUTS: Chronic anxiety about sustainability, trapped feeling, health-affecting stress
-```
+
+**Step 1: Competing Obligations Recognition**
+- **Trigger:** Simultaneous awareness of children's education needs and parents' retirement inadequacy
+- **Inputs:** University cost research (12% annual inflation), parents' pension status (63% GDP per capita)
+- **Outputs:** Overwhelming sense of impossible financial requirements
+
+**Step 2: Resource Limitation Reality**
+- **Trigger:** Calculating total funding needed for both generations
+- **Inputs:** Education cost projections, parent care estimates, current family income
+- **Outputs:** Realization that income cannot support both adequately
+
+**Step 3: Forced Choice Pressure**
+- **Trigger:** Need to allocate limited resources between generations
+- **Inputs:** Immediate children's needs, parents' cultural expectations, emotional pressure
+- **Outputs:** Guilt-driven decisions, typically favoring more urgent/emotional need
+
+**Step 4: Inadequate Compromise**
+- **Trigger:** Attempting to support both generations with insufficient resources
+- **Inputs:** Divided budget allocations, emotional obligations, family expectations
+- **Outputs:** Neither generation adequately supported, ongoing guilt and stress
 
 **FUTURE STATE:**
-```
-TRIGGER: Sustainability analysis with optimization planning
-INPUTS: Family obligation projections, personal future requirements, optimization opportunities, cultural communication strategies
-PROCESSING: Long-term sustainability modeling, family financial education, cultural boundary setting
-STEPS:
-1. See long-term sustainability analysis → Clear picture of future viability
-2. Identify optimization opportunities → Ways to maintain support while protecting future
-3. Family financial education tools → Help family understand sustainability needs
-4. Implement sustainable long-term plan → Protected personal future, continued family support
-OUTPUTS: Long-term sustainability confidence, family understanding, eliminated trapped feeling
-```
 
-### JTBD 2: "Children have opportunities without compromising security"
+**Step 1: Comprehensive Obligation Mapping**
+- **Trigger:** App prompts complete multi-generational needs assessment
+- **Inputs:** Children's education timelines, parents' retirement requirements, Vietnamese cultural obligations
+- **Outputs:** Clear picture of total multi-generational financial requirements
 
-#### Behavior 2.1: Education Investment Decision
+**Step 2: Optimization Strategy Generation**
+- **Trigger:** App calculates multi-generational optimization scenarios
+- **Inputs:** Family income potential, timeline flexibility, resource optimization algorithms
+- **Outputs:** Multiple strategies for supporting both generations effectively
+
+**Step 3: Timeline Coordination Implementation**
+- **Trigger:** App guides strategic sequencing of generational support
+- **Inputs:** Optimized allocation strategies, family communication tools, cultural appropriateness
+- **Outputs:** Systematic plan supporting both generations without guilt
+
+**Step 4: Systematic Execution & Monitoring**
+- **Trigger:** Regular multi-generational plan progress reviews
+- **Inputs:** Progress tracking, family needs changes, income adjustments
+- **Outputs:** Maintained support for both generations, eliminated guilt, family harmony
+
+#### Behavior 2.2: Education Cost vs Parent Care Trade-off
 **CURRENT STATE:**
-```
-TRIGGER: Child's education opportunity (private school, international program, university, enrichment)
-INPUTS: Education costs, child's potential, family sacrifices required, retirement implications
-STEPS:
-1. Learn about education opportunity → Want best for children
-2. Research costs → Shocked by expense level
-3. Feel pressure to provide → "My children deserve the best"
-4. Make education investment without retirement analysis → Sacrifice personal security for children
-5. Worry later about retirement adequacy → Long-term anxiety
-OUTPUTS: Retirement security sacrifice, education anxiety about affordability, children's pressure
-```
+
+**Step 1: Simultaneous Urgent Needs**
+- **Trigger:** Child's university acceptance coincides with parent's increased care needs
+- **Inputs:** University acceptance letter with costs, parent's medical/care requirements, monthly budget limits
+- **Outputs:** Immediate pressure to choose between competing family obligations
+
+**Step 2: Budget Constraint Reality**
+- **Trigger:** Calculating total costs for both education and parent care
+- **Inputs:** University fees, parent care costs, available monthly income
+- **Outputs:** Realization that budget cannot support both adequately
+
+**Step 3: Emotional Decision Making**
+- **Trigger:** Time pressure to decide resource allocation
+- **Inputs:** Child's educational opportunity, parent's immediate needs, emotional pressure, cultural guilt
+- **Outputs:** Decision based on urgency rather than optimization, usually favoring immediate crisis
+
+**Step 4: Post-Decision Guilt**
+- **Trigger:** Living with consequences of forced choice
+- **Inputs:** Impact on unsupported family member, missed opportunities, family reactions
+- **Outputs:** Long-term guilt, family tension, regret about suboptimal trade-off
 
 **FUTURE STATE:**
-```
-TRIGGER: Education investment with intergenerational optimization
-INPUTS: Education opportunity details, Vietnamese market education ROI, retirement protection requirements, optimization strategies
-PROCESSING: Intergenerational optimization, education ROI analysis, retirement protection modeling
-STEPS:
-1. Analyze education opportunity → ROI analysis for Vietnamese market
-2. See intergenerational optimization → How to fund education without sacrificing retirement
-3. Explore creative funding strategies → Scholarships, partial funding, alternative approaches
-4. Make optimized education investment → Children succeed, retirement protected
-OUTPUTS: Optimized education investment, protected retirement, reduced education anxiety
-```
 
-#### Behavior 2.2: Education Cost Inflation Management
+**Step 1: Multi-Generational Decision Analysis**
+- **Trigger:** App detects competing multi-generational financial needs
+- **Inputs:** Education opportunity details, parent care requirements, family budget, Vietnamese cultural context
+- **Outputs:** Comprehensive impact analysis of all decision options
+
+**Step 2: Creative Solution Generation**
+- **Trigger:** App generates optimization alternatives
+- **Inputs:** Vietnamese education/care options, financing alternatives, family resources, timeline flexibility
+- **Outputs:** Multiple creative approaches to support both generations
+
+**Step 3: Cultural Intelligence Application**
+- **Trigger:** App applies Vietnamese cultural appropriateness filters
+- **Inputs:** Cultural obligation frameworks, family communication strategies, face-saving approaches
+- **Outputs:** Culturally-sensitive solutions that honor obligations while optimizing outcomes
+
+**Step 4: Optimized Implementation**
+- **Trigger:** Execution of multi-generational optimization plan
+- **Inputs:** Selected solution strategy, family communication tools, progress tracking systems
+- **Outputs:** Balanced support for all generations, eliminated guilt, maintained family harmony
+
+### JTBD 3: "Build our family's retirement security while raising our children"
+
+#### Behavior 3.1: Retirement vs Children's Needs Competition
 **CURRENT STATE:**
-```
-TRIGGER: Annual education cost increases (12%+ inflation in private/international education)
-INPUTS: Rising education costs, static savings rate, timeline pressure, inflation anxiety
-STEPS:
-1. Receive annual cost increase notice → Panic about affordability
-2. Realize savings not keeping up → Education goals seem impossible
-3. Consider sacrificing education quality → Feel guilty about limiting children
-4. Stress about timeline pressure → Children's age creating urgency
-OUTPUTS: Education affordability panic, quality compromise guilt, timeline stress
-```
+
+**Step 1: Income Allocation Reality Check**
+- **Trigger:** Monthly budget review revealing no retirement savings
+- **Inputs:** Children's expenses, school fees, daily needs, remaining disposable income
+- **Outputs:** Realization that children consume all available money for retirement
+
+**Step 2: Retirement Adequacy Assessment**
+- **Trigger:** Checking government pension projections and retirement needs
+- **Inputs:** Current pension contributions, government pension rates (63% GDP per capita), retirement lifestyle expectations
+- **Outputs:** Shock at retirement funding inadequacy, panic about future financial security
+
+**Step 3: Retirement Savings Calculation**
+- **Trigger:** Attempting to calculate required retirement savings
+- **Inputs:** Retirement timeline, desired retirement income, current savings rate, inflation projections
+- **Outputs:** Overwhelming realization of massive savings requirements
+
+**Step 4: Short-term Priority Decision**
+- **Trigger:** Choosing between immediate children's needs and distant retirement
+- **Inputs:** Children's immediate needs, retirement timeline pressure, emotional parenting obligations
+- **Outputs:** Prioritization of children's needs, continued retirement savings neglect
 
 **FUTURE STATE:**
-```
-TRIGGER: Education cost inflation with adaptive strategy
-INPUTS: Vietnamese education inflation modeling, adaptive savings strategies, timeline optimization, alternative solutions
-PROCESSING: Education cost inflation planning, adaptive strategy optimization, creative solution generation
-STEPS:
-1. App tracks education inflation patterns → Proactive planning rather than reactive panic
-2. See adaptive savings strategies → How to accelerate savings to match inflation
-3. Explore alternative education approaches → Multiple paths to children's success
-4. Implement inflation-resilient education plan → Confidence despite rising costs
-OUTPUTS: Inflation-resilient education planning, proactive cost management, maintained confidence
-```
 
-#### Behavior 2.3: Timeline Competition Stress
+**Step 1: Integrated Retirement-Children Analysis**
+- **Trigger:** App prompts comprehensive retirement and children's needs assessment
+- **Inputs:** Children's projected needs, retirement requirements, Vietnamese pension analysis, income optimization potential
+- **Outputs:** Clear understanding of both immediate and long-term financial requirements
+
+**Step 2: Systematic Retirement Automation**
+- **Trigger:** App implements automated retirement savings before discretionary spending
+- **Inputs:** Income analysis, retirement targets, children's essential vs optional expenses
+- **Outputs:** Automated retirement contributions, protected long-term savings
+
+**Step 3: Children's Expense Optimization**
+- **Trigger:** App optimizes children's expenses for quality without waste
+- **Inputs:** Children's needs analysis, Vietnamese education options, expense efficiency algorithms
+- **Outputs:** Maintained children's quality of life with optimized costs
+
+**Step 4: Long-term Wealth Building Strategy**
+- **Trigger:** App implements systematic wealth building to break dependency cycles
+- **Inputs:** Family wealth building goals, investment options, Vietnamese market conditions
+- **Outputs:** Systematic progress toward financial independence, reduced future family financial burden
+
+#### Behavior 3.2: Long-term Planning Paralysis
 **CURRENT STATE:**
-```
-TRIGGER: Competing timelines between children's education needs and retirement savings
-INPUTS: Children's ages, education timeline, retirement timeline, resource limitations
-STEPS:
-1. Realize timeline conflicts → Children need education now, retirement later
-2. Prioritize children's immediate needs → Short-term thinking
-3. Ignore retirement timeline → "I'll worry about that later"
-4. Reach retirement age unprepared → Too late to adequately prepare
-OUTPUTS: Retirement inadequacy, timeline optimization failure, intergenerational resource conflicts
-```
+
+**Step 1: Timeline Complexity Overwhelm**
+- **Trigger:** Attempting to plan retirement 20+ years in advance
+- **Inputs:** Retirement timeline calculations, inflation projections, family expense projections, investment complexity
+- **Outputs:** Overwhelm at planning complexity, analysis paralysis
+
+**Step 2: Immediate Priority Dominance**
+- **Trigger:** Daily family expenses requiring immediate attention
+- **Inputs:** Children's school fees, household expenses, urgent family needs, limited time
+- **Outputs:** Short-term thinking dominance, retirement planning postponement
+
+**Step 3: Planning Procrastination**
+- **Trigger:** Retirement planning feeling too complex and distant
+- **Inputs:** Complex retirement calculations, immediate family pressures, planning fatigue
+- **Outputs:** "I'll start later" mentality, continued planning avoidance
+
+**Step 4: Lost Opportunity Realization**
+- **Trigger:** Years passing with inadequate retirement preparation
+- **Inputs:** Age progression, lost compound growth opportunities, approaching retirement timeline
+- **Outputs:** Panic about retirement inadequacy, crisis about lost preparation time
 
 **FUTURE STATE:**
-```
-TRIGGER: Timeline optimization with intergenerational planning
-INPUTS: All family timelines, optimization opportunities, Vietnamese intergenerational strategies, creative solutions
-PROCESSING: Multi-timeline optimization, intergenerational planning, resource maximization
-STEPS:
-1. Map all competing timelines → Clear picture of resource competition
-2. See intergenerational optimization strategies → How to honor both timelines
-3. Implement creative resource solutions → Alternative approaches to timeline conflicts
-4. Execute optimized intergenerational plan → Both education and retirement adequately funded
-OUTPUTS: Optimized intergenerational planning, timeline conflict resolution, multi-generational security
-```
+
+**Step 1: Automated Long-term System Setup**
+- **Trigger:** App prompts one-time comprehensive retirement planning setup
+- **Inputs:** Retirement goals, current income, family obligations, Vietnamese market conditions
+- **Outputs:** Automated long-term retirement planning system activated
+
+**Step 2: Immediate Needs Optimization**
+- **Trigger:** App optimizes immediate family expenses to enable retirement savings
+- **Inputs:** Family expense analysis, children's needs, lifestyle preferences, efficiency algorithms
+- **Outputs:** Optimized immediate family spending, freed resources for retirement
+
+**Step 3: Automated Planning Adjustments**
+- **Trigger:** Regular automated retirement plan updates based on life changes
+- **Inputs:** Income changes, family situation updates, market conditions, goal adjustments
+- **Outputs:** Continuously optimized retirement plan without manual recalculation
+
+**Step 4: Systematic Long-term Progress**
+- **Trigger:** Consistent automated progress toward retirement security
+- **Inputs:** Automated contributions, investment performance, plan adjustments, progress tracking
+- **Outputs:** Steady retirement preparation, eliminated planning paralysis, peace of mind
+
+### JTBD 4: "Prepare for major family milestones without derailing daily stability"
+
+#### Behavior 4.1: Major Family Purchase Planning
+**CURRENT STATE:**
+
+**Step 1: Major Purchase Need Recognition**
+- **Trigger:** Family recognizes need for major purchase (house, car, renovation)
+- **Inputs:** Family housing situation, transportation needs, children's growth, lifestyle requirements
+- **Outputs:** Awareness of major financial goal requirement
+
+**Step 2: Cost Research Shock**
+- **Trigger:** Researching actual costs of major family purchase
+- **Inputs:** Vietnamese market prices, down payment requirements, financing options, hidden costs
+- **Outputs:** Shock at expense magnitude, discouragement about affordability
+
+**Step 3: Savings Timeline Impossibility**
+- **Trigger:** Attempting to calculate how long to save for major purchase
+- **Inputs:** Current savings rate, monthly expenses, purchase costs, timeline pressure
+- **Outputs:** Realization that current savings approach makes goal feel impossible
+
+**Step 4: Binary Choice Stress**
+- **Trigger:** Feeling forced to choose between goal achievement and lifestyle stability
+- **Inputs:** Goal importance, current lifestyle quality, family priorities, financial constraints
+- **Outputs:** Either goal abandonment or lifestyle disruption, frustration with impossible choice
+
+**FUTURE STATE:**
+
+**Step 1: Intelligent Goal Assessment**
+- **Trigger:** App prompts comprehensive major purchase goal planning
+- **Inputs:** Purchase requirements, Vietnamese market intelligence, family priorities, timeline flexibility
+- **Outputs:** Realistic goal assessment with multiple achievement strategies
+
+**Step 2: Stability-Preserving Strategy**
+- **Trigger:** App generates savings plan that maintains lifestyle quality
+- **Inputs:** Family budget analysis, lifestyle optimization opportunities, goal timeline options
+- **Outputs:** Savings strategy that achieves goal without lifestyle sacrifice
+
+**Step 3: Systematic Implementation**
+- **Trigger:** App guides systematic milestone planning execution
+- **Inputs:** Optimized savings plan, automated systems, progress tracking, family coordination
+- **Outputs:** Clear monthly actions, automated progress, maintained motivation
+
+**Step 4: Milestone Achievement Tracking**
+- **Trigger:** Regular progress reviews and plan optimization
+- **Inputs:** Savings progress, goal timeline adjustments, market changes, family situation updates
+- **Outputs:** Visible progress toward major goals, maintained family stability, achievement confidence
+
+#### Behavior 4.2: Multiple Goal Timeline Coordination
+**CURRENT STATE:**
+
+**Step 1: Goal Landscape Overwhelm**
+- **Trigger:** Realizing family has multiple expensive goals competing for resources
+- **Inputs:** House down payment needs, children's university costs, family car requirements, emergency fund targets
+- **Outputs:** Overwhelm at number and cost of family financial goals
+
+**Step 2: Prioritization Without Framework**
+- **Trigger:** Attempting to decide which goals are most important
+- **Inputs:** Family members' different priorities, timeline pressures, emotional attachments to goals
+- **Outputs:** Emotional/pressure-based decisions, no systematic prioritization approach
+
+**Step 3: Resource Competition Stress**
+- **Trigger:** Allocating limited resources across multiple goals
+- **Inputs:** Monthly savings capacity, competing goal requirements, timeline constraints
+- **Outputs:** Inadequate funding for all goals, feeling that nothing is progressing well
+
+**Step 4: Scattered Progress Demotivation**
+- **Trigger:** Slow progress on multiple goals simultaneously
+- **Inputs:** Small progress amounts across many goals, lack of completion satisfaction, family pressure
+- **Outputs:** Motivation loss, frustration with scattered efforts, goal abandonment consideration
+
+**FUTURE STATE:**
+
+**Step 1: Comprehensive Goal Mapping**
+- **Trigger:** App prompts complete family goal landscape assessment
+- **Inputs:** All family goals, timeline requirements, cost estimates, priority preferences, resource constraints
+- **Outputs:** Clear visual map of family goal portfolio with timelines and costs
+
+**Step 2: Strategic Goal Sequencing**
+- **Trigger:** App generates optimized goal prioritization strategy
+- **Inputs:** Goal interdependencies, timeline optimization, resource maximization algorithms, Vietnamese market conditions
+- **Outputs:** Strategic goal sequence that maximizes family benefit and progress satisfaction
+
+**Step 3: Coordinated Resource Allocation**
+- **Trigger:** App implements systematic multi-goal funding approach
+- **Inputs:** Optimized goal sequence, family budget capacity, progress tracking systems, automation tools
+- **Outputs:** Efficient resource allocation across goals, systematic progress on priority goals
+
+**Step 4: Portfolio Progress Tracking**
+- **Trigger:** Regular family goal portfolio progress reviews
+- **Inputs:** Progress on all goals, timeline adjustments, priority changes, resource availability updates
+- **Outputs:** Visible advancement across goal portfolio, maintained motivation, strategic family milestone achievement
 
 ---
 
@@ -840,11 +1271,14 @@ OUTPUTS: Optimized intergenerational planning, timeline conflict resolution, mul
 - Motivation maintenance features
 - Progress celebration mechanisms
 
-**4. Relationship Coordination Tools**
+**4. Family & Multi-Generational Coordination Tools**
+- Medical emergency fund modeling and healthcare cost prediction
+- Multi-generational financial optimization and timeline coordination
+- Family retirement planning with pension gap analysis
+- Major milestone planning with stability preservation
 - Couple harmony features
-- Family boundary setting
 - Privacy-controlled transparency
-- Intergenerational planning
+- Cultural family obligation optimization
 
 ### Technical Development Priorities
 
@@ -858,12 +1292,16 @@ OUTPUTS: Optimized intergenerational planning, timeline conflict resolution, mul
 - Advanced optimization algorithms
 - Cultural context engine
 - Cash spending estimation
-- Relationship coordination systems
+- Multi-generational planning systems
+- Medical emergency fund modeling
+- Education cost inflation tracking
 
 **Phase 3 (18+ months): Sophistication**
 - Complete ecosystem integration
 - Advanced cultural AI
-- Intergenerational planning
+- Comprehensive multi-generational optimization
+- Vietnamese healthcare cost intelligence
+- Family milestone coordination systems
 - Market adaptation systems
 
 ### Key Success Metrics
@@ -871,15 +1309,21 @@ OUTPUTS: Optimized intergenerational planning, timeline conflict resolution, mul
 **User Behavior Success Indicators:**
 - Monthly financial review completion rates
 - Goal achievement acceleration
+- Medical emergency fund adequacy
+- Multi-generational goal coordination success
+- Family retirement planning progress
+- Major milestone achievement rates
 - Relationship harmony improvement
-- Emergency response effectiveness
 - Long-term wealth building consistency
 
 **Technical Performance Indicators:**
 - Vietnamese data aggregation accuracy
 - AI categorization precision
-- Optimization algorithm effectiveness
+- Multi-generational optimization algorithm effectiveness
+- Healthcare cost prediction accuracy
+- Education inflation tracking precision
 - Cultural sensitivity scoring
+- Family coordination system performance
 - Real-time adaptation speed
 
 ---
